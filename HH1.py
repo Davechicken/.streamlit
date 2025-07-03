@@ -7,9 +7,9 @@ from io import StringIO
 # ----------------------------------------
 st.title("Half Hourly Electricity Pricing Uplift Tool")
 
-uploaded_file = st.file_uploader("Upload Flat File CSV", type=["csv"])
+uploaded_file = st.file_uploader("Upload Flat File", type=["xlsx"])
 if uploaded_file:
-    df = pd.read_csv(uploaded_file)
+    df = pd.read_excel(uploaded_file)
 
     # ----------------------------------------
     # Split Half Hourly
