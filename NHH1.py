@@ -6,7 +6,7 @@ import pandas as pd
 # Load the flat file
 @st.cache_data
 def load_data():
-    return pd.read_csv("nhh_flat_file.excel")
+    return pd.read_csv("nhh_flat_file.xlsx")
 
 df = load_data()
 
