@@ -11,7 +11,7 @@ This version uses a **static Clean_Postcode.csv** for postcode-to-LDZ lookup.
 """)
 
 # Load postcode lookup from static CSV
-postcode_df = pd.read_csv("Clean_Postcode.csv")
+postcode_df = pd.read_csv("Clean_PostCode.csv")
 
 # Upload tariff pricing file
 tariff_file = st.file_uploader("Upload Supplier Tariff File (Excel)", type=["xlsx"])
