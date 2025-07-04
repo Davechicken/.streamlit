@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 # Display logo
-st.image("/mount/src/.streamlit/Direct/Dyce_logo.png", width=200)
+
 
 st.title("Dyce Energy Gas Pricing Tool - v1")
 
